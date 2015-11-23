@@ -1,0 +1,43 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+# Third-party modules, local test and conf files
+
+server/node_modules
+server/.idea
+
+hass/custom_components/__pycache__
+hass/home-assistant.db
+hass/home-assistant.log
+hass/lib/
+hass/data/*
+
+*.local
+*.local.*
